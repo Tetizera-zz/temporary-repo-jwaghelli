@@ -1,0 +1,17 @@
+    {{ $lang := .Lang}}
+    {{- with $.Site.Home.AllTranslations }}
+    <span class="lang-switch">
+        <ul>
+            {{- range . -}}
+            {{- if ne $lang .Lang }}
+            <div>
+                <p><a href="{{- .Permalink -}}" title="{{ .Language.LanguageName }}"
+                    aria-label="{{ .Language.LanguageName  }}"></p>
+                    {{T "lang_select_title" }} {{ .Language.LanguageName  }}
+                </a>
+            </div>
+            {{- end -}}
+            {{- end}}
+        </ul>
+    </span>
+    {{- end }}

@@ -1,0 +1,114 @@
+baseURL = "www.example.com/"
+defaultContentLanguage = "pt-br"
+themesDir = "themes"
+theme = "soho"
+author = "Tet"
+pluralizeListTitles = false
+
+[params]
+author = "Tet"
+mainSections = "posts"
+
+## Set custom theme color.
+themeColor = "#ac4142"
+
+#pfp
+profilePicture = "images/Tetizera.png"
+
+  [[params.socialIcons]]
+  icon = "fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/Tetizera"
+
+  [privacy]
+    [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+[languages]
+  [languages.pt-br]
+    description = "Olá! :)"
+    languageName = "Brazilian Portuguese"
+    languageCode = "pt-br"
+    title = 'Blog do Tet'
+    weight = 10
+    [languages.pt-br.menu]
+  
+[[languages.pt-br.menu.main]]
+      url = '/'
+      weight = 0
+
+[[languages.pt-br.menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "/posts/"
+weight     = 10
+
+[[languages.pt-br.menu.main]]
+identifier = "bipolar"
+name       = "Bipolar"
+url        = "/bipolar/"
+weight     = 20
+
+[[languages.pt-br.menu.main]]
+identifier = "Sobre"
+name       = "Sobre"
+url        = "/about/"
+weight     = 30
+
+[[languages.pt-br.menu.main]]
+identifier = "Licença"
+name       = "Licença"
+url        = "/licença/"
+weight     = 40
+
+[[languages.pt-br.menu.main]]
+identifier = "versão en"
+name       = "English version"
+url        = "en"
+weight     = 50
+
+
+  [languages.en]
+    description = "Hi! :)"
+    weight = 0
+    title = "Tet's Blog"
+    languageCode = "en"
+    languageName = "English"
+    [languages.en.menu]
+
+[[languages.en.menu.main]]
+      title = 'Tet Blog'
+      url = '/'
+      weight = 0
+
+[[languages.en.menu.main]]
+identifier = "posts"
+name       = "Posts"
+url        = "/en/"
+weight     = 10
+
+[[languages.en.menu.main]]
+identifier = "bipolar"
+name       = "Bipolar"
+url        = "/bipolar/"
+weight     = 20
+
+[[languages.en.menu.main]]
+identifier = "About"
+name       = "About"
+url        = "/about/"
+weight     = 30
+
+[[languages.en.menu.main]]
+identifier = "License"
+name       = "License"
+url        = "/licença/"
+weight     = 40
+
+[[languages.en.menu.main]]
+identifier = "pt-br version"
+name       = "Versão em Português"
+url        = "/"
+weight     = 50

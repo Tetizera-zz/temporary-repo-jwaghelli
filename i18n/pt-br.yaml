@@ -1,0 +1,14 @@
+- id: readingTime
+  translation: "min de leitura"
+
+- id: homepage
+  translation: "Página inicial"
+
+- id: time_to_read
+  translation: "Tempo de leitura:"
+
+- id: readmore
+  translation: "Leia mais..."
+
+- id: lang_select_title
+  translation: "Versão em"
