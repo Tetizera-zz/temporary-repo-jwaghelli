@@ -1,5 +1,5 @@
 ---
-title: "EN POST"
+title: "English language POST"
 date: 2021-08-18 21:19:00 +0300
 draft: false
 ---
